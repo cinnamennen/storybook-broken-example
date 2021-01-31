@@ -1,0 +1,44 @@
+{
+  "scripts": {
+    "build:storybook": "build-storybook -s public"
+  },
+  "dependencies": {
+    "@types/react": "16.9.20",
+    "@types/storybook-addon-jsx": "7.0.1",
+    "@types/storybook__addon-knobs": "5.2.1",
+    "@types/webpack": "4.41.5",
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-scripts": "4.0.1",
+    "typescript": "3.8.3",
+    "webpack": "4.44.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "6.1.15",
+    "@storybook/addon-essentials": "6.1.15",
+    "@storybook/addon-knobs": "6.1.15",
+    "@storybook/addon-links": "6.1.15",
+    "@storybook/core": "6.1.15",
+    "@storybook/node-logger": "6.1.15",
+    "@storybook/preset-create-react-app": "3.1.5",
+    "@storybook/preset-typescript": "3.0.0",
+    "@storybook/react": "6.1.15",
+    "storybook-addon-jsx": "7.3.4"
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

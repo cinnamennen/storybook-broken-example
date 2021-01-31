@@ -26,8 +26,9 @@ yarn-error.log*
 
 /storybook-static
 
-# IDEA/Webstorm project files
+# IDEA/Webstorm project files`
 .idea
 *.iml
 
 .eslintcache
+/.editorconfig
